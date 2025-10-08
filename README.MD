@@ -7,23 +7,6 @@ Aplicación Java creada en **IntelliJ IDEA** que:
 
 ---
 
-## 🧩 Paso 1: Crear el proyecto
-
-**Nombre del proyecto:** `FactorialOracleApp`
-
-**Estructura del proyecto:**
-FactorialOracleApp/
-├── src/
-│ └── com/factorial/
-│ ├── Main.java
-│ ├── ConexionOracle.java
-│ └── Factorial.java
-├── lib/
-│ └── ojdbc8.jar ← Conector de Oracle
-└── README.md
-
----
-
 ## ⚙️ Paso 2: Configurar conexión con Oracle
 
 **Base de datos Oracle 19c (local):**
