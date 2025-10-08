@@ -12,7 +12,7 @@ public class Main {
         int numero = sc.nextInt();
 
         long resultado = Factorial.calcularFactorial(numero);
-        System.out.println(" el factorial de " + numero + "es: " + resultado);
+        System.out.println(" el factorial de " + numero + " es: " + resultado);
 
         try (Connection conn = Conexionoracle.getConnection()) {
             if (conn != null) {
