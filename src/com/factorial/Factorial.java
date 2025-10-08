@@ -2,7 +2,7 @@ package com.factorial;
 
 public class Factorial {
 
-    public static long calcular(int numero) {
+    public static long calcularFactorial(int numero) {
         if (numero < 0) {
             throw new IllegalArgumentException("el numero debe ser positivo .");
         }
